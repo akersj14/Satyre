@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Satyre", "Satyre\Satyre.csproj", "{330162E5-335E-43D7-A795-BF6340639683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Satyre.Wpf", "Satyre.Wpf\Satyre.Wpf.csproj", "{98869E35-386E-4567-A03D-2D649DC7D562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{330162E5-335E-43D7-A795-BF6340639683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330162E5-335E-43D7-A795-BF6340639683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330162E5-335E-43D7-A795-BF6340639683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330162E5-335E-43D7-A795-BF6340639683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98869E35-386E-4567-A03D-2D649DC7D562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98869E35-386E-4567-A03D-2D649DC7D562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98869E35-386E-4567-A03D-2D649DC7D562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98869E35-386E-4567-A03D-2D649DC7D562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B45242F-ED07-453C-842C-C0260D6FDC16}
+	EndGlobalSection
+EndGlobal

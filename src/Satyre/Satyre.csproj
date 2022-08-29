@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="NewFolder\**" />
+	  <EmbeddedResource Remove="NewFolder\**" />
+	  <None Remove="NewFolder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DryIoc.dll" Version="5.1.0" />
+		<PackageReference Include="DynamicData" Version="7.9.7" />
+		<PackageReference Include="Emgu.CV" Version="4.5.5.4823" />
+		<PackageReference Include="Emgu.CV.Bitmap" Version="4.5.5.4823" />
+		<PackageReference Include="Emgu.CV.runtime.windows" Version="4.5.5.4823" />
+		<PackageReference Include="Emgu.CV.UI" Version="4.5.5.4823" />
+		<PackageReference Include="Humanizer" Version="2.14.1" />
+		<PackageReference Include="morelinq" Version="3.3.2" />
+		<PackageReference Include="ReactiveUI" Version="18.3.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="ViewModels\ActionAttributes\" />
+	    <Folder Include="Basic\" />
+</ItemGroup>
+
+</Project>
